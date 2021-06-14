@@ -19,7 +19,7 @@
 MeCab・oseti・wordcloudのインストールが必要
 
 MeCabのインストール
-'''
+```
 brew install mecab
 brew install mecab-ipadic
 #使用したいディレクトリに移動
@@ -30,18 +30,25 @@ cd mecab-ipadic-neologd
 bin/install-mecab-ipadic-neologd -n -a
 #途中で"Do you want to install mecab-ipadic-NEoligd?"と聞かれるのでyesとうつ
 brew install swig
-brew install oseti
-'''
+#pythonでmecabを使えるようにする
+pip install mecab-python3
+```
+ノートブック上で
+```
+import MeCab
+mecab = MeCab.Tagger ('-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd')
+```
+がエラーなく動けば無事インストール完了
 
 osetiのインストール
-'''
-
-'''
+```
+brew install oseti
+```
 
 WordCloudのインストール
-'''
-
-'''
+```
+conda install -c conda-forge wordcloud
+```
 
 # Usage
 
@@ -60,6 +67,10 @@ jpynbファイルを開いて実行。
 
 ### tempo_data
 .jpynbファイルを実行中に一時的に作成されるファイルを格納するファイル
+
+# Note
+ワードクラウドの日本語指定パス`fpath`をしっかりと通さないと、作成されるワードクラウドが文字化けしてしまう。
+文字化けする場合は、[こちらのサイト](https://zenn.dev/yagiyuki/articles/e05bc37d6c3bc283c5f1)を参考に日本語指定パスを通して対応する。
 
 # Author
 * 友利優希（Yuki Tomori）

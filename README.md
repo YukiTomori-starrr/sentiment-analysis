@@ -16,9 +16,9 @@
 
 # Installation
 
-MeCab・oseti・wordcloudのインストールが必要
+## MeCab・oseti・wordcloudのインストールが必要
 
-MeCabのインストール
+### MeCabのインストール
 ```
 brew install mecab
 brew install mecab-ipadic
@@ -40,12 +40,12 @@ mecab = MeCab.Tagger ('-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd')
 ```
 がエラーなく動けば無事インストール完了
 
-osetiのインストール
+### osetiのインストール
 ```
 brew install oseti
 ```
 
-WordCloudのインストール
+### WordCloudのインストール
 ```
 conda install -c conda-forge wordcloud
 ```

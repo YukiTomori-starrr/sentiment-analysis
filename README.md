@@ -5,7 +5,7 @@
 
 # Features
 
-日本語の形態素解析にMeCabのipadic-NEologdを用い、新語・固有表現に対応。
+日本語の形態素解析にMeCabのipadic-NEologdを用い、新語・固有表現に対応。<br>
 またワードクラウドでは任意の形のクラウドを作成できるようにしている。
 
 # Requirement
@@ -69,10 +69,10 @@ jpynbファイルを開いて実行。
 .jpynbファイルを実行中に一時的に作成されるファイルを格納するファイル
 
 # Note
-ワードクラウドの日本語指定パス`fpath`をしっかりと通さないと、作成されるワードクラウドが文字化けしてしまう。
+ワードクラウドの日本語指定パス`fpath`をしっかりと通さないと、作成されるワードクラウドが文字化けしてしまう。<br>
 文字化けする場合は、[こちらのサイト](https://zenn.dev/yagiyuki/articles/e05bc37d6c3bc283c5f1)を参考に日本語指定パスを通して対応する。
 
 # Author
 * 友利優希（Yuki Tomori）
-* 東京大学工学部PSI
+* 東京大学工学部PSIB4・鈴木米倉研所属
 * tohoshinki1998@g.ecc.u-tokyo.ac.jp

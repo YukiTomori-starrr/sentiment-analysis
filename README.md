@@ -74,5 +74,4 @@ jpynbファイルを開いて実行。
 
 # Author
 * 友利優希（Yuki Tomori）
-* 東京大学工学部PSIB4・鈴木米倉研所属
 * tohoshinki1998@g.ecc.u-tokyo.ac.jp
